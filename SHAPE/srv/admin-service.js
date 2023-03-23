@@ -7,4 +7,4 @@ module.exports = cds.service.impl(function() {
   /** Check authorization  */
   function _checkOrderCreateAuth (req) {
     req.user.is('admin')  || req.reject(403)
-  }
+  } 
